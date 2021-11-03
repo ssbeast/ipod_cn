@@ -1,4 +1,4 @@
-import './music.css'
+import './Music.css'
 import Audio from '../Music/Audio'
 const Music = () => {
     
@@ -10,4 +10,4 @@ const Music = () => {
     )
 }
 
-export default Music
+export default Music;

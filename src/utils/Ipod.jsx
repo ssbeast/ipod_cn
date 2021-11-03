@@ -1,4 +1,4 @@
-const Menu = ({idx,index,value}) => {
+const Ipod = ({idx,index,value}) => {
 
    var style=null;
 
@@ -22,4 +22,4 @@ const Menu = ({idx,index,value}) => {
     )
 }
 
-export default Menu;
+export default Ipod;
