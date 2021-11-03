@@ -1,0 +1,66 @@
+.App {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  font-family: sans-serif;
+  text-align: center;
+  height: 600px;
+  width: 436px;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -ms-border-radius: 20px 20px 20px 20px;
+  -o-border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 37px 21px -5px rgba(0,0,0,0.63);
+-webkit-box-shadow: 0px 37px 21px -5px rgba(0,0,0,0.63);
+-moz-box-shadow: 0px 37px 21px -5px rgba(0,0,0,0.63);
+  border-style: solid;
+  border-color: darkgray;
+}
+
+#interaction{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  margin-top: 15px;
+  height: 200px;
+  width:  200px;
+  border-radius: 50%;
+}
+
+#clickButton{
+  position: absolute;
+  top: 30.2rem;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+}
+
+.back{
+  color: white;
+  position: relative;
+  top : -75px;
+  left: 31px;
+}
+
+.forward{
+  color: white;
+  position: relative;
+  left: 41px;
+  top: 6px;
+}
+
+.backward{
+  color: white;
+  position: relative;
+  left: -78px;
+  top: 8px;
+  transform: rotateY(180deg);
+}

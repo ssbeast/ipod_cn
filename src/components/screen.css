@@ -1,0 +1,44 @@
+#screen{
+    border: 5px solid;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    background-color: lightskyblue;
+    height: 320px;
+    width: 400px;
+}
+
+.menu{
+    border-radius: 40px;
+    height: 50px;
+    width: 200px;
+}
+
+.side2{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+}
+
+.side2>img{
+    height: 280px;
+    width: 190px;
+    margin-top: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: inset;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -ms-border-radius: 20px 20px 20px 20px;
+    -o-border-radius: 20px 20px 20px 20px;
+}
+
+#clickButton{
+    position: absolute;
+    top: 30.2rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+}

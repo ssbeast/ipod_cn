@@ -1,0 +1,15 @@
+.second-screen{
+    background: grey;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 320px;
+    margin-left: 45px;
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -ms-border-radius: 40px 40px 40px 40px;
+    -o-border-radius: 40px 40px 40px 40px;
+}

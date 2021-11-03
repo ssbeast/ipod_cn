@@ -1,0 +1,6 @@
+.audio>audio{
+    background: transparent;
+    background-color: red;
+}
+audio::-webkit-media-controls-play-button{
+background-color:green !important;}
